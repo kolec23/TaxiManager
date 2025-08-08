@@ -1,0 +1,75 @@
+body
+{
+    background-image: url("grafika/tile_background.png");
+}
+
+#container
+{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(245, 218, 234);
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#container2
+{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(245, 218, 234);
+    width: 500px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+span
+{
+    line-height: 30px;
+}
+
+input[type=text],
+input[type=password]
+{
+    width: 300px;
+    color: #666;
+    border: 2px solid #fb4e4e;
+    border-radius: 2px;
+    font-size: 14px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+input[type=submit],
+input[type=button]
+{
+    width: 300px;
+    background-color: #ee149e;
+    border-radius: 2px;
+    font-size: 16px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 2px;
+}
+
+input[type=submit]:hover,
+input[type=button]:hover
+{
+    background-color: #cc038d;
+}
+
+.navigation
+{
+    background-color: #14e7fb;
+}
+
+.wazne
+{
+	background-color: #0C8F9C;
+}
+
